@@ -106,6 +106,12 @@ h6 {
           align-items: center;
 }
 
+@media (max-width: 991.98px) {
+  .header__container {
+    min-height: 80px;
+  }
+}
+
 .header__menu {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
@@ -124,6 +130,14 @@ h6 {
           justify-content: flex-end;
 }
 
+@media (max-width: 991.98px) {
+  .header__button {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 170px;
+            flex: 0 0 170px;
+  }
+}
+
 .menu__link {
   font-family: Raleway;
   text-transform: uppercase;
@@ -134,14 +148,6 @@ h6 {
 }
 
 @media (max-width: 991.98px) {
-  .header__container {
-    min-height: 80px;
-  }
-  .header__button {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 170px;
-            flex: 0 0 170px;
-  }
   .menu__item {
     margin: 0px 30px 0px 0px;
   }
