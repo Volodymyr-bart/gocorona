@@ -1,0 +1,14 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 40px 0px 0px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    margin: 0px 40px 0px 0px;
+    letter-spacing: 1px;
+}
