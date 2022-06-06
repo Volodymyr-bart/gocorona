@@ -53,41 +53,6 @@
         }
 }
 
-.block-text__title {
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 126%;
-    font-feature-settings: 'pnum' on, 'lnum' on;
-    color: #000000;
-}
-
-.block-text__title--blue {
-    color: #4285F4;
-}
-
-.block-text__text {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 138.5%;    
-    letter-spacing: 0.08em;
-    font-feature-settings: 'pnum' on, 'lnum' on;
-    color: #616161;   
-
-    margin-top: 12px;
-}
-
-.block-text__button {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 10px;
-    line-height: 12px;
-    /* identical to box height */
-    letter-spacing: 0.14em;
-    color: #FCFDFE;
-
-    margin-top: 24px;
-
-}
 
 .get-started__image {       
     flex: 0 1 52%;
