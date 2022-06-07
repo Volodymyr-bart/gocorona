@@ -6,8 +6,18 @@
     color: #000000;
 }
 
-.block-text__title--blue {
-    color: #4285F4;
+.block-text__title{
+    &--blue {
+        color: #4285F4;
+    }
+    
+    &--light-blue{
+        color: #587EEC;
+    }
+
+    &--red {
+        color: #EC5863;
+    }
 }
 
 .block-text__text {
