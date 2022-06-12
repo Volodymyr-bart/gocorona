@@ -1,0 +1,50 @@
+.healthcare__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    // margin-left: auto;
+    // margin-right: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.healthcare-title{
+    // max-width: 770px;
+
+}
+
+.healthcare__block-text {}
+
+.block-text-healthcare{
+    // max-width: 600px;
+}
+
+.block-text {}
+
+.block-text__title {}
+
+.block-text__title--red {}
+
+.block-text__text {}
+
+.healthcare__services {}
+
+.services-healthcare {}
+
+.services-healthcare__body {
+    display: flex;
+}
+
+.body-services-healthcare {}
+
+.body-services-healthcare__item {
+    box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+    border-radius: 16px;
+}
+
+.body-services-healthcare__icon {}
+
+.body-services-healthcare__title {}
+
+.body-services-healthcare__text {}
