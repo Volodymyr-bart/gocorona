@@ -351,6 +351,14 @@ h6 {
   margin-top: 24px;
 }
 
+.block-text--center {
+  text-align: center;
+}
+
+.block-text--mw {
+  max-width: 620px;
+}
+
 .get-started {
   background-color: #FAFBFD;
 }
@@ -818,13 +826,8 @@ h6 {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 80px;
-  text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .services-healthcare__body {
